@@ -1,0 +1,43 @@
+/*
+*{outline: 1px solid red;}
+*/
+body{
+    background-color: white;
+    color: rgb(0, 0, 0);
+
+}
+
+header, section{
+    width: 960px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgba(101, 219, 228, 0.5);
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
+article{
+    width: 50%;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    margin-right: 16px;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+
+progress{
+    margin-left: 5px;
+}
+
+.flex{
+    display: flex;
+}
